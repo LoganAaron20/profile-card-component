@@ -1,0 +1,105 @@
+body {
+    background-image: url("./images/bg-pattern-bottom.svg");
+    background-color: rgb(205, 247, 247);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.card {
+    background: white;
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    margin: 300px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+.profile-image {
+    background-image: url("./images/bg-pattern-card.svg");
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 195px;   
+}
+
+.overlay {
+    height: 500px;
+    line-height: 1px;
+}
+
+.overlay img {
+    width:30%;
+    height: 30%;
+    border: 8px solid white;
+    border-bottom-color: black;
+    border-radius: 50%;
+    margin-left: 168px;
+    margin-top: 115px;
+}
+
+.overlay hr{
+   color: black;
+   background-color: black;
+   height: 2px;
+   opacity: 0.1;
+}
+
+.overlay h3 {
+    margin-left: 143px;
+    font-size: 35px;
+}
+
+.overlay p {
+    margin-left: 220px;
+    opacity: 0.4;
+    margin-top: 0;
+}
+
+strong {
+    opacity: 03
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    line-height: 1px;;
+}
+
+.followers {
+    margin-bottom: 100px;
+    line-height: 1px; 
+}
+
+.photos {
+    margin-bottom: 100px;
+    line-height: 1px;
+}
+
+.likes {
+    margin-bottom: 100px;
+}
+
+.user-info strong {
+    font-size: 30px;
+}
+
+.followers p {
+    margin: 0;
+    opacity: 0.3;
+}
+
+.likes p {
+    margin:0;
+    opacity: 0.3;
+}
+
+.photos p{
+    margin: 0;
+    opacity: 0.3;
+}
